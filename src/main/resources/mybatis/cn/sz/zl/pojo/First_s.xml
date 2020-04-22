@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+		"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+		
+<mapper namespace="cn.sz.zl.dao.IFirst_sDAO" >
+
+	<select id="first_sfindall" resultType="cn.sz.zl.pojo.First_s">
+		select c_id, reportid, policyid, lossmoney, c_status, c_remakes, policypeople, cause_of_loss, start_time, end_time, f_status, info_a, info_b from first_s
+	</select>
+	
+	
+</mapper>
